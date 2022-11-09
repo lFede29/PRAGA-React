@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.brandBusiness{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.browser{
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
