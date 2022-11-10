@@ -1,15 +1,19 @@
 import './App.css';
 import './navBar.css'
 import NavBar from "./navBar"
+import ItemListContainer from "./ItemListContainer"
 
 
 function App() {
   return (
-    <div>
-      <main>
+    <body>
+      <header>
         <NavBar className="navegation"/>
+      </header>
+      <main>
+        <ItemListContainer/>
       </main>
-    </div>
+    </body>
   );
 }
 

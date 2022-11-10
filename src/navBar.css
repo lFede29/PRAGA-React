@@ -3,9 +3,13 @@ ul{
     display: inline-flex;
 }
 
-li{
-    margin-left: 5px;
-    margin-right: 5px;
+li{ 
+    gap: 10px;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
 }
 
 .brandBusiness{
@@ -16,6 +20,13 @@ li{
 .browser{
     border-style: solid;
     border-color: black;
-    background-color: black;
-    color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart{
+    width: 30px;
+    margin-right: 20px;
 }
